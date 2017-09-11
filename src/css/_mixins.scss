@@ -1,0 +1,34 @@
+//----------------------------------------------------------------------------
+//  Responsive
+//----------------------------------------------------------------------------
+@mixin responsive($size) {  //c014
+	@if $size == taft { @media only screen and (min-width: $taft) { @content; } }
+	@else if $size == wilson { @media only screen and (min-width: $wilson) { @content; } }
+  @else if $size == harding { @media only screen and (min-width: $harding) { @content; } }
+	@else if $size == coolidge { @media only screen and (min-width: $coolidge) { @content; } }
+  @else if $size == hoover { @media only screen and (min-width: $hoover) { @content; } }
+	@else if $size == froosevelt { @media only screen and (min-width: $froosevelt) { @content; } }
+	@else if $size == truman { @media only screen and (min-width: $truman) { @content; } }
+	@else if $size == eisenhower { @media only screen and (min-width: $eisenhower) { @content; } }
+  @else if $size == kennedy { @media only screen and (min-width: $kennedy) { @content; } }
+  @else if $size == johnson { @media only screen and (min-width: $johnson) { @content; } }
+	@else if $size == nixon { @media only screen and (min-width: $nixon) { @content; } }
+	@else if $size == ford { @media only screen and (min-width: $ford) { @content; } }
+	@else if $size == carter { @media only screen and (min-width: $carter) { @content; } }
+	@else if $size == reagan { @media only screen and (min-width: $reagan) { @content; } }
+	@else if $size == hbush { @media only screen and (min-width: $hbush) { @content; } }
+	@else if $size == clinton { @media only screen and (min-width: $clinton) { @content; } }
+	@else if $size == wbush { @media only screen and (min-width: $wbush) { @content; } }
+	@else if $size == obama { @media only screen and (min-width: $obama) { @content; } }
+}
+
+//----------------------------------------------------------------------------
+//  Transitions
+//----------------------------------------------------------------------------
+@mixin transition($time) {
+  -webkit-transition: all $time ease-in-out;
+  -moz-transition: all $time ease-in-out;
+  -ms-transition: all $time ease-in-out;
+  -o-transition: all $time ease-in-out;
+  transition: all $time ease-in-out;
+}

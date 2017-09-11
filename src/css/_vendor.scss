@@ -1,0 +1,22 @@
+.viewport {  //c027
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: "LucidaGrande", "Helvetica", sans-serif;
+  line-height: 14px;
+  padding: 4px 6px;
+  position: fixed;
+  right: 0;
+  z-index: 999;
+  &.inactive {
+    opacity: 0;
+  }
+}
+
+span {  //c027
+  .viewport & {
+    display:inline-block
+  }
+}
