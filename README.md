@@ -27,6 +27,8 @@ Gulp speeds up development with the following tasks.
 ## jQuery
 *jQuery* is implemented as a dependency instead of being loaded through a CDN which allows you to work offline. One disadvantage of using it, though, is the tendency for novice developers to spiral into writing [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code). When this happens, it is time to abandon *jQuery* (see c023 in *conslice/comments.md*).
 
+## changing remote repos
+
 1. Change the remote repos
 
 git remote -v
