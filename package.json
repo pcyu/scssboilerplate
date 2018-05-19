@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samuraijane/base-a.git"
+    "url": "git+https://github.com/pcyu/scssboilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samuraijane/base-a/issues"
+    "url": "https://github.com/pcyu/scssboilerplate/issues"
   },
-  "homepage": "https://github.com/samuraijane/base-a#readme",
+  "homepage": "https://github.com/pcyu/scssboilerplate#readme",
   "dependencies": {
     "express": "^4.15.4"
   },
