@@ -3,6 +3,15 @@
 
 ## App Development
 * Clone this repository to your local environment.
+* Change the remote repos
+
+    git remote -v
+    git remote set-url origin git@github.com:pcyu/repohere.git 
+
+    git remote rm heroku
+    git remote add heroku git@github.com:pcyu/repohere.git
+
+* Change html title and package.json config stuff
 * Run ` npm install ` to download the dependencies.
 * Run ` gulp watch ` in the terminal to start a local server at port 3001.
 
@@ -26,15 +35,3 @@ Gulp speeds up development with the following tasks.
 
 ## jQuery
 *jQuery* is implemented as a dependency instead of being loaded through a CDN which allows you to work offline. One disadvantage of using it, though, is the tendency for novice developers to spiral into writing [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code). When this happens, it is time to abandon *jQuery* (see c023 in *conslice/comments.md*).
-
-## changing remote repos
-
-1. Change the remote repos
-
-git remote -v
-git remote set-url origin git@github.com:pcyu/repohere.git 
-
-git remote rm heroku
-git remote add heroku git@github.com:pcyu/repohere.git
-
-2. Change html title and package.json config stuff
