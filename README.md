@@ -3,7 +3,7 @@
 
 ## App Development
 * Clone this repository to your local environment.
-* Change the remote repos
+* Change the remote repository url and the heroku remote url.
 
     git remote -v
     git remote set-url origin git@github.com:pcyu/repohere.git 
